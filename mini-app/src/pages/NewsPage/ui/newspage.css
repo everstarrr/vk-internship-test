@@ -1,0 +1,9 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.card > * + * {
+    margin-top: 0.5rem;
+}
